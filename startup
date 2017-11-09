@@ -3,4 +3,3 @@ script load awaybar
 script load nickcolor_expando
 script load trackbar22
 script load smartfilter
-format -delete daychange
