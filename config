@@ -37,13 +37,11 @@ aliases = {
     GOTO     = "sb goto";
     CHAT     = "dcc chat";
     RUN      = "SCRIPT LOAD";
-    CALC =
-"exec - if command -v bc >/dev/null 2>&1\\; then printf '%s=' '$*'\\; echo '$*' | bc -l\\; else echo bc was not found\\; fi";
+    CALC = "exec - if command -v bc >/dev/null 2>&1\\; then printf '%s=' '$*'\\; echo '$*' | bc -l\\; else echo bc was not found\\; fi";
     SBAR       = "STATUSBAR";
     INVITELIST = "mode $C +I";
     Q          = "QUERY";
-    "MANUAL-WINDOWS" =
-"set use_status_window off;set autocreate_windows off;set autocreate_query_level none;set autoclose_windows off;set reuse_unused_windows on;save";
+    "MANUAL-WINDOWS" = "set use_status_window off;set autocreate_windows off;set autocreate_query_level none;set autoclose_windows off;set reuse_unused_windows on;save";
     EXEMPTLIST = "mode $C +e";
     ATAG       = "WINDOW SERVER";
     UNSET      = "set -clear";
@@ -253,9 +251,9 @@ statusbar = {
 };
 settings = {
     core = {
-        real_name = "yourname";
-        user_name = "yourname";
-        nick      = "yourname";
+        real_name = "username";
+        user_name = "username";
+        nick      = "username";
         resolve_prefer_ipv6 = "yes";
         quit_message = "bye!";
     };
@@ -263,28 +261,28 @@ settings = {
     "fe-common/core" = {
         theme        = "weed";
         autolog      = "yes";
-        autolog_path = "~/.irssi/logs/$tag/$0/%Y/%m-%d.log";
+        autolog_path = "~/.irssi/logs/%Y/$tag/$0/%m-%d.log";
     };
     "perl/core/scripts" = {
-        awl_all_disable          = "no";
-        awl_automode             = "sbar";
-        awl_block                = "20";
-        awl_columns              = "1";
-        awl_display_key          = "%K%0$H $N %N";
-        awl_display_key_active   = "%1 %W$C %N";
-        awl_display_nokey        = "%K%0$H $N %N";
-        awl_display_nokey_active = "%1 %W$C %N";
-        awl_height_adjust        = "1";
-        awl_hide_data            = "0";
-        awl_maxlines             = "9";
-        awl_placement            = "bottom";
-        awl_position             = "0";
-        awl_prefer_name          = "yes";
-        awl_sbar_maxlength       = "yes";
-        awl_separator            = "%N %N";
-        awl_sort                 = "refnum";
+      awl_viewer = "no";
+      awl_all_disable = "no";
+      awl_block = "30";
+      awl_height_adjust = "1";
+      awl_hide_data = "0";
+      awl_maxlines = "1";
+      awl_placement = "bottom";
+      awl_position = "0";
+      awl_prefer_name = "yes";
+      awl_sbar_maxlength = "yes";
+      awl_sort = "refnum";
+      awl_shared_sbar = "no";
+      neat_colors = "X30rRX61X6CX3CyX1DcCBX3HX2AbMX3AX42X6M";
+      trackbar_style = "%r";
+      smartfilter_delay = "300";
     };
-    servers = ();
-    chatnets = {};
-    channels = ();
+    "irc/core" = { skip_motd = "yes"; };
 };
+
+servers = ();
+chatnets = {};
+channels = ();
