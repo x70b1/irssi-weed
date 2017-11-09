@@ -256,9 +256,15 @@ settings = {
         real_name = "yourname";
         user_name = "yourname";
         nick      = "yourname";
+        resolve_prefer_ipv6 = "yes";
+        quit_message = "bye!";
     };
     "fe-text"        = { actlist_sort = "refnum"; };
-    "fe-common/core" = { theme        = "weed"; };
+    "fe-common/core" = {
+        theme        = "weed";
+        autolog      = "yes";
+        autolog_path = "~/.irssi/logs/$tag/$0/%Y/%m-%d.log";
+    };
     "perl/core/scripts" = {
         awl_all_disable          = "no";
         awl_automode             = "sbar";
