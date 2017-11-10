@@ -150,10 +150,10 @@ abstracts = {
     sbservertag          = "$0%K";
     sbnickmode           = "";
     sb_act_sep           = "%w$*%n";
-    sb_act_text          = "%K$*%n";
-    sb_act_msg           = "%2%W$*%n";
-    sb_act_hilight       = "%5%W $0%W$1-%n";
-    sb_act_hilight_color = "%5%W$0%W$1-%n";
+    sb_act_text          = "%w%0$*%n";
+    sb_act_msg           = "%w%0$*%n";
+    sb_act_hilight       = "%2%W $0%W$1-%n";
+    sb_act_hilight_color = "%2%W $0%W$1-%n";
 };
 formats = {
     "fe-common/core" = {
@@ -505,7 +505,10 @@ formats = {
         script_error = "{error    %r*%K %rError%K in script {hilight $0}:}";
     };
     "Irssi::Script::adv_windowlist" = {
-        awl_display_key_active = "%1 %W$N $C %N";
+        awl_display_key   = "%K%0$H $N $C $S";
+        awl_display_nokey = "%K%0$H $N $C $S";
+        awl_display_key_active   = "%1 %W$N $C %N";
+        awl_display_nokey_active = "%1 %W$N $C %N";
         awl_display_header       = "";
         awl_separator            = "%N %N";
     };
