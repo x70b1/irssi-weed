@@ -278,6 +278,7 @@ settings = {
       awl_shared_sbar = "no";
       neat_colors = "X30rRX61X6CX3CyX1DcCBX3HX2AbMX3AX42X6M";
       trackbar_style = "%r";
+      trackbar_string = "-";
       smartfilter_delay = "300";
     };
     "irc/core" = { skip_motd = "yes"; };
