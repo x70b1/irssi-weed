@@ -283,7 +283,3 @@ settings = {
     };
     "irc/core" = { skip_motd = "yes"; };
 };
-
-servers = ();
-chatnets = {};
-channels = ();
