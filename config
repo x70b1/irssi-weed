@@ -37,7 +37,7 @@ aliases = {
     GOTO     = "sb goto";
     CHAT     = "dcc chat";
     RUN      = "SCRIPT LOAD";
-    CALC = "exec - if command -v bc >/dev/null 2>&1\\; then printf '%s=' '$*'\\; echo '$*' | bc -l\\; else echo bc was not found\\; fi";
+    CALC     = "exec - if command -v bc >/dev/null 2>&1\\; then printf '%s=' '$*'\\; echo '$*' | bc -l\\; else echo bc was not found\\; fi";
     SBAR       = "STATUSBAR";
     INVITELIST = "mode $C +I";
     Q          = "QUERY";
@@ -239,7 +239,6 @@ statusbar = {
         awl_0 = {
             items = {
                 barstart = { priority = "100"; };
-                usercount = {};
                 awl_0     = {};
                 barend    = {
                     priority  = "100";
@@ -257,29 +256,35 @@ settings = {
         resolve_prefer_ipv6 = "yes";
         quit_message = "bye!";
     };
-    "fe-text"        = { actlist_sort = "refnum"; };
+    "fe-text" = {
+        actlist_sort      = "refnum";
+        scroll_page_count = "5";
+    };
     "fe-common/core" = {
-        theme        = "weed";
-        autolog      = "yes";
-        autolog_path = "~/.irssi/logs/%Y/$tag/$0/%m-%d.log";
+        theme          = "weed";
+        autolog        = "yes";
+        autolog_path   = "~/.irssi/logs/%Y/$tag/$0/%m-%d.log";
+        window_history = "yes";
     };
     "perl/core/scripts" = {
-      awl_viewer = "no";
-      awl_all_disable = "no";
-      awl_block = "30";
-      awl_height_adjust = "1";
-      awl_hide_data = "0";
-      awl_maxlines = "1";
-      awl_placement = "bottom";
-      awl_position = "0";
-      awl_prefer_name = "yes";
-      awl_sbar_maxlength = "yes";
-      awl_sort = "refnum";
-      awl_shared_sbar = "no";
-      neat_colors = "X30rRX61X6CX3CyX1DcCBX3HX2AbMX3AX42X6M";
-      trackbar_style = "%K";
-      trackbar_string = "-";
-      smartfilter_delay = "1200";
+        awl_viewer         = "no";
+        awl_all_disable    = "no";
+        awl_block          = "30";
+        awl_height_adjust  = "1";
+        awl_hide_data      = "0";
+        awl_maxlines       = "1";
+        awl_placement      = "bottom";
+        awl_position       = "0";
+        awl_prefer_name    = "yes";
+        awl_sbar_maxlength = "yes";
+        awl_sort           = "refnum";
+        awl_shared_sbar    = "OFF";
+        neat_colors        = "X30rRX61X6CX3CyX1DcCBX3HX2AbMX3AX42X6M";
+        trackbar_style     = "%K";
+        trackbar_string    = "-";
+        smartfilter_delay  = "1200";
     };
     "irc/core" = { skip_motd = "yes"; };
 };
+
+logs = {};

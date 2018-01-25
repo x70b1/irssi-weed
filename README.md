@@ -1,8 +1,8 @@
 # weed - XChat based theme for irssi
 
-This is an updated version of [ronilaukkarinen/weed](https://github.com/ronilaukkarinen/weed). All congratulations go to him.
+This is an updated version of [ronilaukkarinen/weed](https://github.com/ronilaukkarinen/weed). All congratulations go to him. Primarily the scripts have been updated. However, some of the config had to be adapted to this.
 
-Primarily the scripts have been updated. However, some of the config had to be adapted to this. I have added `smartfilter.pl`.
+I have added `smartfilter.pl`.
 
 
 ## Usage
@@ -20,5 +20,4 @@ Primarily the scripts have been updated. However, some of the config had to be a
 * smartfilter.pl
 * trackbar22.pl
 
-Check also the `startup` file.
-Look into the `perl/core/scripts` area in the `config` file. The settings for the scripts are set there.
+Check also the `startup` file. Look into the `perl/core/scripts` area in the `config` file. The settings for the scripts are set there.
