@@ -253,8 +253,8 @@ settings = {
         real_name = "username";
         user_name = "username";
         nick      = "username";
-        resolve_prefer_ipv6 = "yes";
         quit_message = "bye!";
+        resolve_prefer_ipv6 = "yes";
     };
     "fe-text" = {
         actlist_sort      = "refnum";
@@ -265,6 +265,8 @@ settings = {
         autolog        = "yes";
         autolog_path   = "~/irssi-logs/$tag/$0/%Y/%m-%d.log";
         window_history = "yes";
+        term_charset   = "UTF-8";
+        names_max_columns = "8";
     };
     "perl/core/scripts" = {
         awl_viewer         = "no";
