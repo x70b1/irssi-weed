@@ -263,7 +263,7 @@ settings = {
     "fe-common/core" = {
         theme          = "weed";
         autolog        = "yes";
-        autolog_path   = "~/.irssi/logs/%Y/$tag/$0/%m-%d.log";
+        autolog_path   = "~/irssi-logs/$tag/$0/%Y/%m-%d.log";
         window_history = "yes";
     };
     "perl/core/scripts" = {
