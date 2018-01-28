@@ -266,7 +266,6 @@ settings = {
         autolog        = "yes";
         autolog_path   = "~/irssi-logs/$tag/$0/%Y/%m-%d.log";
         window_history = "yes";
-        term_charset   = "UTF-8";
         names_max_columns = "8";
     };
     "perl/core/scripts" = {
