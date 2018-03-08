@@ -250,9 +250,9 @@ statusbar = {
 };
 settings = {
 	core = {
-		real_name           = "username";
-		user_name           = "username";
-		nick                = "username";
+		real_name           = "xxusernamexx";
+		user_name           = "xxusernamexx";
+		nick                = "xxusernamexx";
 		quit_message        = "bye!";
 		resolve_prefer_ipv6 = "yes";
 	};
