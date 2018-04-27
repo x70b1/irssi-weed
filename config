@@ -283,7 +283,7 @@ settings = {
 		neat_colors        = "X30rRX61X6CX3CyX1DcCBX3HX2AbMX3AX42X6M";
 		trackbar_style     = "%K";
 		trackbar_string    = "-";
-		smartfilter_delay  = "1200";
+		smartfilter_delay  = "7200";
 	};
 	"irc/core" = { skip_motd = "yes"; };
 };
