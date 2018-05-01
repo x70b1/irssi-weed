@@ -250,10 +250,10 @@ statusbar = {
 };
 settings = {
 	core = {
-		real_name           = "xxusernamexx";
-		user_name           = "xxusernamexx";
-		nick                = "xxusernamexx";
-		quit_message        = "bye!";
+		real_name           = "{{ username }}";
+		user_name           = "{{ username }}";
+		nick                = "{{ username }}";
+		quit_message        = "{{ quitmessage }}";
 		resolve_prefer_ipv6 = "yes";
 	};
 	"fe-text" = {

@@ -9,7 +9,7 @@ I have added `smartfilter.pl`.
 
 ## Usage
 
-* Change your username in the `config` file.
+* Change your username `{{ username }}` and your quit message `{{ quitmessage }}` in the `config` file.
 * Adapt your `config` further to your requirements.
 * Start chatting around.
 
