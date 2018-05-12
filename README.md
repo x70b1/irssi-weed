@@ -9,7 +9,24 @@ I have added `smartfilter.pl`.
 
 ## Usage
 
-* Change your username `{{ username }}` and your quit message `{{ quitmessage }}` in the `config` file.
+```
+settings = {
+  core = {
+    real_name    = "";
+    user_name    = "";
+    nick         = "";
+    quit_message = "bye!";
+    }
+  };
+
+servers = ();
+
+chatnets = {};
+
+channels = ();
+```
+
+* Change your username and your quit message in your `config` file. You can add the snippet from above to your config.
 * Adapt your `config` further to your requirements.
 * Start chatting around.
 
