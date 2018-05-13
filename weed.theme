@@ -47,9 +47,6 @@ replaces = { "[]=" = "$*"; };
 
 abstracts = {
 
-	# For awaybar.pl
-	sb_awaybar = " %1 {sb %W$0-} %N";
-
 	# For usercount.pl
 	sb_usercount  = " %0 {sb %G$0} %N ";
 	sb_uc_ircops  = "%r*$*";
