@@ -34,9 +34,10 @@ channels = ();
 ## The following scripts are used:
 
 * adv_windowlist.pl
-* awaybar.pl
 * nickcolor_expando.pl
 * smartfilter.pl
 * trackbar22.pl
 
-Look into the `perl/core/scripts` area in the `config` file. The settings for the scripts are set there. Check also the `startup` file.
+Look into the `perl/core/scripts` area in the `config` file. The settings for the scripts are set there.
+
+Check also the `startup` file.
