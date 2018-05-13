@@ -1,5 +1,4 @@
 script load adv_windowlist
-script load awaybar
 script load nickcolor_expando
 script load trackbar22
 script load smartfilter
