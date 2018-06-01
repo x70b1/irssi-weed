@@ -4,8 +4,6 @@
 
 This is an updated version of [ronilaukkarinen/weed](https://github.com/ronilaukkarinen/weed). All congratulations go to him. Primarily the scripts have been updated. However, some of the config had to be adapted to this.
 
-I have added `smartfilter.pl`.
-
 
 ## Usage
 
@@ -35,7 +33,6 @@ channels = ();
 
 * adv_windowlist.pl
 * nickcolor_expando.pl
-* smartfilter.pl
 * trackbar22.pl
 
 Look into the `perl/core/scripts` area in the `config` file. The settings for the scripts are set there.
