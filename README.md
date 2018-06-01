@@ -34,6 +34,10 @@ channels = ();
 * adv_windowlist.pl
 * nickcolor_expando.pl
 * trackbar22.pl
+* usercount.pl
+
+
+Use `/sbar awl_0 add -after awl_0 -alignment right usercount` to display the `usercount.pl` counter.
 
 Look into the `perl/core/scripts` area in the `config` file. The settings for the scripts are set there.
 
