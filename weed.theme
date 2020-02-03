@@ -5,39 +5,6 @@
 #  l  `  '  !|   [_ |   [_ |     |
 #   \      / |     T|     T|     |
 #    \_/\_/  l_____jl_____jl_____j
-#
-# Beautiful X-Chat inspired irssi theme by rolle @ QuakeNet
-# http://roni.laukkarinen.info
-#
-#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=~
-#
-# NOTE FOR FINNISH USERS:
-#
-# Jos olet suomalainen ja pidät teemasta, joini ihmeessä
-# kanavalle #pulina quakenetissä. Lisää tietoa kanavasta:
-# http://www.pulina.fi
-#
-# Ja jos tykkäsit, mikset sanoisi kiitokset privassa,
-# jotta tiedän että tätä käyttää joku :-)
-#
-#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=~
-#
-# Inspired by X-Chat.
-# (not the xchat-irssi-theme: THE X-Chat-theme)
-#
-#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=~
-#
-# IMPORTANT:
-#
-# Make sure this is the latest version and use the tutorial
-# provided in https://github.com/ronilaukkarinen/weed
-#
-# Without actions in the tutorial the theme WILL NOT WORK
-# PROPERLY!
-#
-# Always backup your ~/.irssi -folder before trying!
-#
-#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=~
 
 default_color = "-1";
 
@@ -46,16 +13,6 @@ info_eol = "false";
 replaces = { "[]=" = "$*"; };
 
 abstracts = {
-
-	# For usercount.pl
-	sb_usercount  = " %0 {sb %w$0} %N ";
-	sb_uc_ircops  = "%r*$*";
-	sb_uc_ops     = "%Ro%K$*";
-	sb_uc_halfops = "%Bho%b$*";
-	sb_uc_voices  = "%Gv%K$*";
-	sb_uc_normal  = "%w$*%K";
-	sb_uc_space   = " ";
-
 	line_start       = "";
 	timestamp        = " %_$* ";
 	hilight          = "$*";
