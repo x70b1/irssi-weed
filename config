@@ -238,6 +238,9 @@ settings = {
         neat_colors = "X30rRX61X6CX3CyX1DcCBX3HX2AbMX3AX42X6M";
         trackbar_style = "%K";
         trackbar_string = "-";
+        recdep_period = "3600";
+        recdep_rejoin = "3600";
+        recdep_nickperiod = "600";
     };
     "irc/core" = {
         skip_motd = "yes";
