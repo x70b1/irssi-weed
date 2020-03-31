@@ -221,6 +221,7 @@ settings = {
         autolog = "yes";
         autolog_path = "~/irssi/logs/$tag/$0/%Y/%m-%d.log";
         window_history = "yes";
+        show_names_on_join = "no";
     };
     "perl/core/scripts" = {
         awl_viewer = "no";
