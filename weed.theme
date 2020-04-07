@@ -32,7 +32,7 @@ abstracts = {
 	ban              = "$*";
 
 	# All of below: $0 = mode, $1 = nick
-	msgnick    = "$0$1- %|";
+	msgnick    = "$cumode_space$0$1- %|";
 	ownmsgnick = "{msgnick %G$1%K%_|}%w";
 	ownnick    = "$*";
 
