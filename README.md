@@ -3,7 +3,7 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/x70b1/irssi-weed.svg)](https://github.com/x70b1/irssi-weed/graphs/contributors)
 ![license](https://img.shields.io/github/license/x70b1/irssi-weed.svg)
 
-This is an updated version of [ronilaukkarinen/weed](https://github.com/ronilaukkarinen/weed). All congratulations go to him. Primarily the scripts have been updated. However, some of the config had to be adapted to this.
+This is a version for my own use of [ronilaukkarinen/weed](https://github.com/ronilaukkarinen/weed). All congratulations go to him. Primarily the scripts have been updated. However, some of the config had to be adapted to this.
 
 
 ## Usage
